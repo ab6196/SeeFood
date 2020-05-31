@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.background-image {
+  background-image: url("../src/components/homepageImage.jpg");
+  height: 900px;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  opacity: 90%;
+}
+
+.hide {
+  display: none;
+}
+.container {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.bodyContainer {
+  width: 100%;
+  background-color: #E2E0E0;
+  padding-bottom: 5%;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mt-5 {
+  margin-top: 5%;
+}
+.mt-2 {
+  margin-top: 2%;
+}
+.pl-2 {
+  padding-left: 2%;
+}
+.mt-10 {
+  margin-top: 10%;
+}
+.mt-15 {
+  margin-top: 15%;
+}
+.mt-20 {
+  margin-top: 5%;
+}
+.ml-2 {
+  margin-left: 2%;
+}
+.ml-5 {
+  margin-left: 5%;
+}
+.ml-25 {
+  margin-left: 35%;
+}
+.d-inline {
+  display: inline;
+}
+.individualPropertyDesc{
+  margin: 30px 0 0 50px;
+  border: 1px solid;
+    padding: 10px;
+}
+.individualPropertyDesc:hover {
+  box-shadow: 5px 5px #888888;
+}
+.imageBackground {
+  background-color: white;
+  /* padding: 0% 3%; */
+  width: 50%;
+  float: left;
+}
+.box2 {
+  margin: 5% 5%;
+  /* margin-top: -100px; */
+}
+.float-left {
+  float: left;
+}
+.pt-15 {
+  padding-top: 15%;
+}
+.pagination {
+  position: "fixed";
+    bottom: "0px";
+    margin-bottom: 1px;
+}
+
+#cookYourself {
+  margin-left: 20px;
+  float: bottom;
+}
+
+#navText {
+  color: black;
+}
+
+.pageTitle h1 {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+.pageTitle {
+  padding-top: 70px;
+  color: whitesmoke;
+}
+
+/* .recipeContainer {
+  text-align: left;
+  margin-right: ;
+} */
+/* .recipeContainer .col {
+  float: right;
+} */
+
+/* .resultContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+.ingredientContainer {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 25%;
+  text-align: left;
+}
+
+.ingredientContainer h3, .stepsContainer h3, .nutritionContainer h3 {
+  text-align: center;
+}
+
+.ingredientContainer li, .stepsContainer li {
+  line-height: 2;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stepsContainer {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 50%;
+  text-align: left;
+}
+
+.nutritionContainer {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 25%;
+}
+
+.recipeContainer {
+  display: flex;
+}
+
+.description {
+  margin: 0 25%;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.description h3 {
+  text-align: center;
+}
+.nutritionContainer p {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rainbowText {
+  /* background-image: linear-gradient(to left, violet,purple, indigo, darkblue, blue,lightblue, green,lightgreen, yellow, lightyellow, orange,red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  background: red;
+    background: -webkit-linear-gradient(right, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
