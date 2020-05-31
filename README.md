@@ -34,4 +34,4 @@ Please run the `npm start` command in the `frontEnd` and `backEnd` directories t
 
 ### `keyFile.json` File
 
-Considering cyber security issues, we have not uploaded our keyFile on GitHub. Please reach out to me if you would like to clone and run the repo locally.
+Considering cyber security issues, I have not uploaded our keyFile on GitHub. Please reach out to me if you would like to clone and run the repo locally.
