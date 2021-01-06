@@ -5,7 +5,7 @@
   "proxy": "https://maps.googleapis.com",
   "dependencies": {
     "@google-cloud/vision": "^1.7.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "mocha": "^6.2.2",
     "react": "^16.12.0",
